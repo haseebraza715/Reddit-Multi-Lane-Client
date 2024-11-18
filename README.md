@@ -24,7 +24,7 @@ A browser-based Reddit client that allows users to view posts from multiple subr
 ### **Getting Started**
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/reddit-multi-lane-client.git
+   git clone https://github.com/haseebraza715/reddit-multi-lane-client.git
    cd reddit-multi-lane-client
    ```
 
