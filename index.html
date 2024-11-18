@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reddit Multi-Lane Client</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Reddit Multi-Lane Client</h1>
+      <div class="header-actions">
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+        <button id="open-modal-btn" class="add-btn">+ Add Subreddit</button>
+      </div>
+    </header>
+    <main>
+      <div id="lane-container" class="lane-container">
+        <!-- Lanes will be dynamically added here -->
+      </div>
+    </main>
+
+    <!-- Modal for Adding Subreddit -->
+    <div id="add-modal" class="modal hidden">
+      <div class="modal-content">
+        <h3>Enter Subreddit Name</h3>
+        <input
+          type="text"
+          id="subreddit-input"
+          placeholder="e.g., javascript"
+        />
+        <div class="modal-actions">
+          <button id="add-lane-btn" class="add-btn">Add</button>
+          <button id="close-modal-btn" class="close-btn">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Reddit Multi-Lane Client by
+        <a href="https://www.linkedin.com/in/haseeb-raza-00a845231/"
+          >Haseeb Raza</a
+        >. Powered by
+        <a href="https://www.reddit.com/dev/api/" target="_blank">Reddit API</a
+        >.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
